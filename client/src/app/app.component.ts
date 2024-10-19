@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
-  http =inject(HttpClient);
+  http = inject(HttpClient);
   title = 'DatingApp';
   users: any;
 
