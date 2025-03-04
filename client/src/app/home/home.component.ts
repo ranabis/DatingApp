@@ -10,7 +10,8 @@ import { HttpClient } from '@angular/common/http';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
-  http = inject(HttpClient);
+  private http = inject(HttpClient);
+
   registerMode = false;
   users: any;
   
