@@ -49,6 +49,5 @@ export class TestErrorsComponent {
         this.validationErrors = error;
       }
     })
-  }
-  
+  }  
 }
